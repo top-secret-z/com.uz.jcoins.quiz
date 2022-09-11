@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
+	<category name="wcf.jcoins.statement">
+		<item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.quiz.result"><![CDATA[Quiz-Lösung]]></item>
+		<item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.quiz.percent"><![CDATA[Minimale Erfolgsrate für Quiz-Lösung [Prozent]]]></item>
+		<item name="wcf.jcoins.statement.reason.com.uz.jcoins.statement.quiz.result"><![CDATA[{if $statement->getObject()->getTitle()}{if LANGUAGE_USE_INFORMAL_VARIANT}Du hast{else}Sie haben{/if} den Quiz „{$statement->getObject()->getTitle()}“ gelöst.{else}{if LANGUAGE_USE_INFORMAL_VARIANT}Du hast{else}Sie haben{/if} einen Quiz gelöst, der mittlerweile gelöscht ist.{/if}]]></item>
+		<item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.quiz.question"><![CDATA[Frage]]></item>
+		<item name="wcf.jcoins.statement.title.retractable.com.uz.jcoins.statement.quiz.question"><![CDATA[Frage gelöscht]]></item>
+		<item name="wcf.jcoins.statement.reason.com.uz.jcoins.statement.quiz.question"><![CDATA[{if $statement->getObject()->getTitle()}{if LANGUAGE_USE_INFORMAL_VARIANT}Du hast{else}Sie haben{/if} die Quiz-Frage „{$statement->getObject()->getTitle()}“ erstellt.{else}Eine Quiz-Frage von {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} wurde erstellt, die mittlerweile gelöscht ist.{/if}]]></item>
+		<item name="wcf.jcoins.statement.reason.reverse.com.uz.jcoins.statement.quiz.question"><![CDATA[{if $statement->getObject()->getTitle()}{if LANGUAGE_USE_INFORMAL_VARIANT}Deine{else}Ihre{/if} Quiz-Frage „{$statement->getObject()->getTitle()}“ wurde gelöscht.{else}Eine Quiz-Frage von {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} wurde gelöscht.{/if}]]></item>
+
+		<!-- wcf.jcoins.statement.category -->
+		<item name="wcf.jcoins.statement.category.com.uz.jcoins.quiz"><![CDATA[Quiz]]></item>
+	</category>
+</language>
