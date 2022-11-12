@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/eventListener.xsd">
-	<import>
-		<eventlistener name="jCoinsQuestionAction">
-			<eventclassname>wcf\data\quiz\question\QuestionAction</eventclassname>
-			<eventname>finalizeAction</eventname>
-			<environment>user</environment>
-			<listenerclassname>wcf\system\event\listener\JCoinsQuizQuestionEventListener</listenerclassname>
-		</eventlistener>
-		<eventlistener name="jCoinsQuestionActionAdmin">
-			<eventclassname>wcf\data\quiz\question\QuestionAction</eventclassname>
-			<eventname>finalizeAction</eventname>
-			<environment>admin</environment>
-			<listenerclassname>wcf\system\event\listener\JCoinsQuizQuestionEventListener</listenerclassname>
-		</eventlistener>
-		
-		<eventlistener name="jCoinsQuestionAddForm">
-			<eventclassname>wcf\form\QuizQuestionAddForm</eventclassname>
-			<eventname>readParameters</eventname>
-			<listenerclassname>wcf\system\event\listener\JCoinsQuizQuestionAddListener</listenerclassname>
-		</eventlistener>
-		
-		<eventlistener name="jCoinsQuizResult">
-			<eventclassname>wcf\data\quiz\QuizAction</eventclassname>
-			<eventname>finalizeAction</eventname>
-			<listenerclassname>wcf\system\event\listener\JCoinsQuizEventListener</listenerclassname>
-		</eventlistener>
-	</import>
+    <import>
+        <eventlistener name="jCoinsQuestionAction">
+            <eventclassname>wcf\data\quiz\question\QuestionAction</eventclassname>
+            <eventname>finalizeAction</eventname>
+            <environment>user</environment>
+            <listenerclassname>wcf\system\event\listener\JCoinsQuizQuestionEventListener</listenerclassname>
+        </eventlistener>
+        <eventlistener name="jCoinsQuestionActionAdmin">
+            <eventclassname>wcf\data\quiz\question\QuestionAction</eventclassname>
+            <eventname>finalizeAction</eventname>
+            <environment>admin</environment>
+            <listenerclassname>wcf\system\event\listener\JCoinsQuizQuestionEventListener</listenerclassname>
+        </eventlistener>
+
+        <eventlistener name="jCoinsQuestionAddForm">
+            <eventclassname>wcf\form\QuizQuestionAddForm</eventclassname>
+            <eventname>readParameters</eventname>
+            <listenerclassname>wcf\system\event\listener\JCoinsQuizQuestionAddListener</listenerclassname>
+        </eventlistener>
+
+        <eventlistener name="jCoinsQuizResult">
+            <eventclassname>wcf\data\quiz\QuizAction</eventclassname>
+            <eventname>finalizeAction</eventname>
+            <listenerclassname>wcf\system\event\listener\JCoinsQuizEventListener</listenerclassname>
+        </eventlistener>
+    </import>
 </data>

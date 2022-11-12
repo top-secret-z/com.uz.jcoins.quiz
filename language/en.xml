@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
-	<category name="wcf.jcoins.statement">
-		<item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.quiz.result"><![CDATA[Quiz solved]]></item>
-		<item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.quiz.percent"><![CDATA[Minimum success rate for Quiz solved [Percent]]]></item>
-		<item name="wcf.jcoins.statement.reason.com.uz.jcoins.statement.quiz.result"><![CDATA[{if $statement->getObject()->getTitle()}You solved the Quiz „{$statement->getObject()->getTitle()}“.{else}You solved a Quiz, which was deleted in the meantime.{/if}]]></item>
-		<item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.quiz.question"><![CDATA[Question]]></item>
-		<item name="wcf.jcoins.statement.title.retractable.com.uz.jcoins.statement.quiz.question"><![CDATA[Question deleted]]></item>
-		<item name="wcf.jcoins.statement.reason.com.uz.jcoins.statement.quiz.question"><![CDATA[{if $statement->getObject()->getTitle()}You created the Quiz question “{$statement->getObject()->getTitle()}”.{else}You created a Quiz question, which was deleted in the meantime.{/if}]]></item>
-		<item name="wcf.jcoins.statement.reason.reverse.com.uz.jcoins.statement.quiz.question"><![CDATA[{if $statement->getObject()->getTitle()}Your Quiz question “{$statement->getObject()->getTitle()}” was deleted.{else}A Quiz question of yours was deleted.{/if}]]></item>
-		
-		<!-- wcf.jcoins.statement.category -->
-		<item name="wcf.jcoins.statement.category.com.uz.jcoins.quiz"><![CDATA[Quiz]]></item>
-	</category>
+    <category name="wcf.jcoins.statement">
+        <item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.quiz.result"><![CDATA[Quiz solved]]></item>
+        <item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.quiz.percent"><![CDATA[Minimum success rate for Quiz solved [Percent]]]></item>
+        <item name="wcf.jcoins.statement.reason.com.uz.jcoins.statement.quiz.result"><![CDATA[{if $statement->getObject()->getTitle()}You solved the Quiz „{$statement->getObject()->getTitle()}“.{else}You solved a Quiz, which was deleted in the meantime.{/if}]]></item>
+        <item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.quiz.question"><![CDATA[Question]]></item>
+        <item name="wcf.jcoins.statement.title.retractable.com.uz.jcoins.statement.quiz.question"><![CDATA[Question deleted]]></item>
+        <item name="wcf.jcoins.statement.reason.com.uz.jcoins.statement.quiz.question"><![CDATA[{if $statement->getObject()->getTitle()}You created the Quiz question “{$statement->getObject()->getTitle()}”.{else}You created a Quiz question, which was deleted in the meantime.{/if}]]></item>
+        <item name="wcf.jcoins.statement.reason.reverse.com.uz.jcoins.statement.quiz.question"><![CDATA[{if $statement->getObject()->getTitle()}Your Quiz question “{$statement->getObject()->getTitle()}” was deleted.{else}A Quiz question of yours was deleted.{/if}]]></item>
+
+        <!-- wcf.jcoins.statement.category -->
+        <item name="wcf.jcoins.statement.category.com.uz.jcoins.quiz"><![CDATA[Quiz]]></item>
+    </category>
 </language>
